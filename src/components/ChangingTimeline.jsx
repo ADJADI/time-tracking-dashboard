@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Daily from "./Daily";
 import Weekly from "./Weekly";
 import Monthly from "./Montly";
-import profilePic from "../../../images/image-jeremy.png";
+import profilePic from "../assets/images/image-jeremy.png";
 
 export default function ChangingTimeline() {
   const [selectedTimeframe, setSelectedTimeframe] = useState("daily");
